@@ -1,4 +1,5 @@
-for (number = 1; number <=100; number++) {
+var randomNumber = function(num) {
+for (number = 1; number <=num; number++) {
 	if (number % 3 == 0 && number % 5 == 0) {
 		document.write("FizzBuzz" + "<br />");
 	} 
@@ -9,6 +10,6 @@ for (number = 1; number <=100; number++) {
     document.write("Buzz" + "<br />");
   }
   else {
-    document.write(number + "<br />");
+    document.write(number + "<br />");}
  }
 }
